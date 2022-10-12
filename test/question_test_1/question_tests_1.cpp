@@ -10,3 +10,8 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+TEST_CASE("test find_gcd") {
+    REQUIRE(find_gcd(5,15) == 5);
+    REQUIRE(find_gcd(16,32) == 16);
+    REQUIRE(find_gcd(159,309) == 3);
+}
